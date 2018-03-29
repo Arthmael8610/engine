@@ -1,6 +1,6 @@
 <?php
 /**
- * planetconcourse.worldments API
+ * minds-comts API
  *
  * @version 1
  * @author Mark Harding
