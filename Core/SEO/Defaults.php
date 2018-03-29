@@ -204,7 +204,7 @@ class Defaults
             ],
             'plus' => [
                 'title' => 'Flutterby Plus',
-                'description' => 'Opt-out of boosts, earn 1,000 monthly points, access exclusive Minds content, and more',
+                'description' => 'Opt-out of boosts, earn 1,000 monthly points, access exclusive Planet Concourse content, and more',
                 'image' => 'assets/photos/fractal.jpg'
             ],
             'wallet' => [
