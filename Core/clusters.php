@@ -9,7 +9,7 @@ namespace Minds\Core;
  */
 class clusters extends base
 {
-    public $seeds = array('https://www.minds.com');
+    public $seeds = array('https://www.planetconcourse.world');
     public $ttl = 1800; //nodes live for half an hours, and then they have to reconfirm
 
     /**

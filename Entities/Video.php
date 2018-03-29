@@ -36,7 +36,7 @@ class Video extends Object
         return new cinemr\sdk\client(array(
                 'account_guid' => '335988155444367360',
                             'secret' => '+/rW1ArsueEjXK++0zkxlBrbLkb5suHqvqZJ64kX8rk=',
-                'uri' => 'http://cinemr.minds.com'
+                'uri' => 'http://cinemr.planetconcourse.world'
             ));
     }
 

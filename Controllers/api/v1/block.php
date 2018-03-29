@@ -7,7 +7,7 @@
  */
 namespace Minds\Controllers\api\v1;
 
-use Minds\Components\Controller;
+use planetconcourse.worldponents\Controller;
 use Minds\Core;
 use Minds\Helpers;
 use Minds\Entities;

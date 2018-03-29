@@ -39,7 +39,7 @@ class Rewards
         $mock->uuid = '99999';
         $mock->name = 'Mark Harding';
         $mock->amount = 1000;
-        $mock->email = 'mark@minds.com';
+        $mock->email = 'mark@planetconcourse.world';
         $founders = [
             $mock
         ];*/

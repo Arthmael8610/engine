@@ -874,17 +874,17 @@ function _elgg_php_exception_handler($exception) {
 		$body .= "<p><b>Stack:</b></p>";
 	    $body .= nl2br(htmlentities(print_r($exception, true), ENT_QUOTES, 'UTF-8'));
 
-		//elgg_send_email('minds@minds.com', 'mark@minds.com', 'Exception ' . get_class($vars['object']), nl2br(htmlentities(print_r($vars['object'], true), ENT_QUOTES, 'UTF-8')));
+		//elgg_send_email('minds@planetconcourse.world', 'mark@planetconcourse.world', 'Exception ' . get_class($vars['object']), nl2br(htmlentities(print_r($vars['object'], true), ENT_QUOTES, 'UTF-8')));
 		if(function_exists('phpmailer_send')){
 			phpmailer_send(
-						'minds@minds.com',
+						'minds@planetconcourse.world',
 						'Minds Bugs',
-						'mark@minds.com',
+						'mark@planetconcourse.world',
 						'Mark Harding',
 						'Automatic Report',
 						$body,
 						null,
-						//array('bill@minds.com', 'john@minds.com','mark@kramnorth.com'),
+						//array('bill@planetconcourse.world', 'john@planetconcourse.world','mark@kramnorth.com'),
 						true //html
 			);
 		}

@@ -22,7 +22,7 @@
                  Click here</a>
             </p>
             <p>
-                Over the last 6 months, we have been flying through the 2017 development roadmap with major upgrades already to Search, Blogs, Boost, Wallet, <a href="https://minds.com/localization">Languages</a>, Groups and <a href="https://www.minds.com/monetization">Monetization</a>. Within the next few months we will be launching into Production from Beta with revamps to mobile, rewards, digital currency, decentralization and more.
+                Over the last 6 months, we have been flying through the 2017 development roadmap with major upgrades already to Search, Blogs, Boost, Wallet, <a href="https://planetconcourse.world/localization">Languages</a>, Groups and <a href="https://www.planetconcourse.world/monetization">Monetization</a>. Within the next few months we will be launching into Production from Beta with revamps to mobile, rewards, digital currency, decentralization and more.
             </p>
             <p>
               Momentum is building as a rapidly growing number of people are demanding social platforms that support transparency and Internet freedom. Thank you for your support in pioneering this movement!

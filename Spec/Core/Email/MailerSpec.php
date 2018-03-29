@@ -24,7 +24,7 @@ class MailerSpec extends ObjectBehavior
         $this->beConstructedWith($mailer, $queue, $filter);
 
         $message->to = [[ 'email' => 'you@yomail.com', 'name' => 'Spam' ]];
-        $message->from = [ 'email' => 'me@minds.com', 'name' => 'Sender' ];
+        $message->from = [ 'email' => 'me@planetconcourse.world', 'name' => 'Sender' ];
         $this->send($message);
 
         $this->getStats()->shouldHaveKeyWithValue('failed', 1);

@@ -1,7 +1,7 @@
 <?php
 /**
  * Minds DI (Dependency Injector)
- * @author Mark Harding (mark@minds.com)
+ * @author Mark Harding (mark@planetconcourse.world)
  */
 namespace Minds\Core\Di;
 

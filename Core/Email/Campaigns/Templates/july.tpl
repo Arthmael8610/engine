@@ -59,7 +59,7 @@
       <td style="text-align:center;">
         <a href="<?php echo Minds\Core\Config::_()->site_url; ?>blog/featured?__e_ct_guid=<?= $vars['guid']?>&campaign=july-2016"
           style="text-decoration:none; color:#333">
-          <img src="https://www.minds.com/assets/tutorial.png" width="450px" align="center">
+          <img src="https://www.planetconcourse.world/assets/tutorial.png" width="450px" align="center">
         </a>
       </td>
     </tr>
@@ -99,8 +99,8 @@
                 </tr>
                 <tr>
                   <td>
-                    <a href="https://www.minds.com/<?= $object->ownerObj['username'] ?>?__e_ct_guid=<?= $vars['guid']?>" style="text-decoration:none;">
-                      <img src="https://www.minds.com/icon/<?= $object->owner_guid?>/small" width="24px" style="border-radius:50%; vertical-align:middle;">
+                    <a href="https://www.planetconcourse.world/<?= $object->ownerObj['username'] ?>?__e_ct_guid=<?= $vars['guid']?>" style="text-decoration:none;">
+                      <img src="https://www.planetconcourse.world/icon/<?= $object->owner_guid?>/small" width="24px" style="border-radius:50%; vertical-align:middle;">
                       <span style="line-height: 24px; vertical-align:middle; text-decoration:none;">@<?= $object->ownerObj['username'] ?></span>
                     </a>
                   </td>

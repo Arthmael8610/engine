@@ -26,7 +26,7 @@
         foreach($users['posts'] as $guid) { ?>
         <tr>
             <td style="text-align:center;"> 
-            <a href="https://minds.com/newsfeed/<?= $guid ?>?__e_ct_guid=<?= $vars['guid']?>&campaign=<?= $vars['campaign']; ?>" target="_blank">
+            <a href="https://planetconcourse.world/newsfeed/<?= $guid ?>?__e_ct_guid=<?= $vars['guid']?>&campaign=<?= $vars['campaign']; ?>" target="_blank">
                 <img src="https://d15u56mvtglc6v.cloudfront.net/emails/<?= $guid ?>.png" width="558"/>
             </a>
             </td>
@@ -67,7 +67,7 @@
         font-family: 'Lato', helvetica;
         color: #444;
         ">
-       <a href="https://minds.com/?__e_ct_guid=<?= $vars['guid']?>&campaign=<?= $vars['campaign']; ?>&validator=<?= $vars['validator'] ?>" style="text-decoration:none; color:inherit; font-weight:bold; font-style:italic;">The Minds Team</a>
+       <a href="https://planetconcourse.world/?__e_ct_guid=<?= $vars['guid']?>&campaign=<?= $vars['campaign']; ?>&validator=<?= $vars['validator'] ?>" style="text-decoration:none; color:inherit; font-weight:bold; font-style:italic;">The Minds Team</a>
       </td>
     </tr>
   </tbody>

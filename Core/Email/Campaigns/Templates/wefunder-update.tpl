@@ -3,7 +3,7 @@
     <tr>
       <td style="background: #4690D6; color:#FFF; text-align:center;">
         <a href="https://wefunder.com/minds">
-          <img src="https://www.minds.com/assets/invest.png" width="550px">
+          <img src="https://www.planetconcourse.world/assets/invest.png" width="550px">
         </a>
       </td>
     </tr>
@@ -40,7 +40,7 @@
         line-height: 22px;
         letter-spacing: 0.2px;
         font-family: helvetica;">
-       <a href="https://minds.com/ottman" style="text-decoration:none; color:inherit; font-weight:bold; font-style:italic;">Bill (@ottman)</a> 
+       <a href="https://planetconcourse.world/ottman" style="text-decoration:none; color:inherit; font-weight:bold; font-style:italic;">Bill (@ottman)</a>
       </td>
     </tr> 
     <tr>

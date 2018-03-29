@@ -21,7 +21,7 @@ class Message
     {
         $this->from = [
           'name' => "Minds",
-          'email' => "info@minds.com"
+          'email' => "info@planetconcourse.world"
         ];
     }
 
@@ -71,7 +71,7 @@ class Message
    */
   public function setMessageId($messageId)
   {
-      $this->messageId = $messageId ? '<' . $messageId . '@minds.com>' : '';
+      $this->messageId = $messageId ? '<' . $messageId . '@planetconcourse.world>' : '';
       return $this;
   }
 

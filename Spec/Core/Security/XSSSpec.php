@@ -44,8 +44,8 @@ class XSSSpec extends ObjectBehavior
 
     public function it_should_allow_href_on_anchor_tags()
     {
-        $dirty = "<a href=\"https://www.minds.com\">take me home</a>";
-        $this->clean($dirty)->shouldReturn('<?xml encoding="utf-8" ?>'."<a href=\"https://www.minds.com\" target=\"_blank\">take me home</a>");
+        $dirty = "<a href=\"https://www.planetconcourse.world\">take me home</a>";
+        $this->clean($dirty)->shouldReturn('<?xml encoding="utf-8" ?>'."<a href=\"https://www.planetconcourse.world\" target=\"_blank\">take me home</a>");
     }
 
     public function it_should_not_allow_bad_url_schemes()
@@ -70,14 +70,14 @@ class XSSSpec extends ObjectBehavior
 
     public function it_should_set_an_image_src()
     {
-        $dirty = "<img src=\"https://minds.com/fakeimg.png\">";
-        $this->clean($dirty)->shouldReturn('<?xml encoding="utf-8" ?>'."<img src=\"https://minds.com/fakeimg.png\">");
+        $dirty = "<img src=\"https://planetconcourse.world/fakeimg.png\">";
+        $this->clean($dirty)->shouldReturn('<?xml encoding="utf-8" ?>'."<img src=\"https://planetconcourse.world/fakeimg.png\">");
     }
 
     public function it_should_set_width_and_height()
     {
-        $dirty = "<img src=\"https://minds.com/fakeimg.png\" width=\"300\" height=\"600\">";
-        $this->clean($dirty)->shouldReturn('<?xml encoding="utf-8" ?>'."<img src=\"https://minds.com/fakeimg.png\" width=\"300\" height=\"600\">");
+        $dirty = "<img src=\"https://planetconcourse.world/fakeimg.png\" width=\"300\" height=\"600\">";
+        $this->clean($dirty)->shouldReturn('<?xml encoding="utf-8" ?>'."<img src=\"https://planetconcourse.world/fakeimg.png\" width=\"300\" height=\"600\">");
     }
 
     public function it_should_close_open_tags()

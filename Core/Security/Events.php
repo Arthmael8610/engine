@@ -162,7 +162,7 @@ class Events
             'ockuderla1985.full-design.com',
             'unmosimla1978.total-blog.com',
             'gemttranlonthe1985.blogzet.com',
-            'rapptubizboe1978.blogminds.com',
+            'rapptubizboe1978.blogplanetconcourse.world',
             'descduclighgon1973.full-design.com',
             'ricphosati1972.full-design.com',
             'fuddbluslanmaa1975.blogdigy.com',

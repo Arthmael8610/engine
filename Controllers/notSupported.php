@@ -68,7 +68,7 @@ class notSupported extends core\page implements Interfaces\page
                 <div class="mobile">
                   <p>You can also download our mobile apps too</p>
                   <div class="">
-                    <a href="https://geo.itunes.apple.com/us/app/minds-com/id961771928?mt=8&amp;uo=6">
+                    <a href="https://geo.itunes.apple.com/us/app/planetconcourse.world/id961771928?mt=8&amp;uo=6">
                       <img src="https://linkmaker.itunes.apple.com/images/badges/en-us/badge_appstore-lrg.png">
                     </a>
                     <a href="https://play.google.com/store/apps/details?id=com.minds.mobile" align="center">

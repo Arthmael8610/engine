@@ -30,7 +30,7 @@ class multisite extends base
 
         //check if this is asubdomain temp for main domain
         if (strpos($this->domain, '-custdom-001', 0) !== false) {
-            $this->domain = str_replace('-custdom-001.minds.com', '', $this->domain);
+            $this->domain = str_replace('-custdom-001.planetconcourse.world', '', $this->domain);
             $this->domain = str_replace('-', '.', $this->domain);
         }
 
@@ -66,7 +66,7 @@ class multisite extends base
         $CONFIG->cassandra->servers =  $CONFIG->multisite->servers;
 
         $CONFIG->wwwroot = (isset($_SERVER['HTTP_X_FORWARDED_PROTO']) ? $_SERVER['HTTP_X_FORWARDED_PROTO'] : 'https') . "://$this->host/";
-        //if(strpos($CONFIG->wwwroot, '.minds.com') === FALSE)
+        //if(strpos($CONFIG->wwwroot, '.planetconcourse.world') === FALSE)
         //	$CONFIG->wwwroot = "http://$this->host/";
 
         if (isset($row['dataroot'])) {

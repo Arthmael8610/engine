@@ -31,7 +31,7 @@ class thumbProxy extends core\page implements Interfaces\page
 
         //get the original file
         $ch = curl_init($src);
-        curl_setopt($ch, CURLOPT_USERAGENT, 'Minds/2.0 (+http://www.minds.com/)');
+        curl_setopt($ch, CURLOPT_USERAGENT, 'Minds/2.0 (+http://www.planetconcourse.world/)');
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
         curl_setopt($ch, CURLOPT_FOLLOWLOCATION, 1);
         curl_setopt($ch, CURLOPT_NOSIGNAL, 1);

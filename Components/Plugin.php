@@ -1,5 +1,5 @@
 <?php
-namespace Minds\Components;
+namespace planetconcourse.worldponents;
 
 use Minds\Core\Di\Di;
 

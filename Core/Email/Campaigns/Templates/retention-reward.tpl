@@ -66,8 +66,8 @@
                 </tr>
                 <tr>
                   <td>
-                    <a href="https://www.minds.com/<?= $object->ownerObj['username'] ?>?__e_ct_guid=<?= $vars['guid']?>&campaign=retention-<?= $vars['period'] ?>" style="text-decoration:none;">
-                      <img src="https://www.minds.com/icon/<?= $object->owner_guid?>/small" width="24px" style="border-radius:50%; vertical-align:middle;">
+                    <a href="https://www.planetconcourse.world/<?= $object->ownerObj['username'] ?>?__e_ct_guid=<?= $vars['guid']?>&campaign=retention-<?= $vars['period'] ?>" style="text-decoration:none;">
+                      <img src="https://www.planetconcourse.world/icon/<?= $object->owner_guid?>/small" width="24px" style="border-radius:50%; vertical-align:middle;">
                       <span style="line-height: 24px; vertical-align:middle; text-decoration:none;">@<?= $object->ownerObj['username'] ?></span>
                     </a>
                   </td>

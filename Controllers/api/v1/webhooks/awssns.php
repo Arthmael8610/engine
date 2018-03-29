@@ -77,8 +77,8 @@ class awssns implements Interfaces\Api, Interfaces\ApiIgnorePam
         $emailId = null;
 
         if (isset($notification['mail']['commonHeaders']['messageId'])) {
-            // <[userGUID]-[emailAddressSHA1]-[emailGUID]@minds.com>
-            $prefix = '@minds.com';
+            // <[userGUID]-[emailAddressSHA1]-[emailGUID]@planetconcourse.world>
+            $prefix = '@planetconcourse.world';
             $messageId = trim($notification['mail']['commonHeaders']['messageId'], '<>');
 
             if (strrpos($messageId, $prefix) === strlen($messageId) - strlen($prefix)) {

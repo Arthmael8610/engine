@@ -114,7 +114,7 @@ class Session extends base
               'guid' => (string) $_SESSION['user']->guid,
               'sessionId' => session_id()
             ], Config::_()->get('sockets-jwt-secret'));
-            setcookie('socket_jwt', $jwt, 0, '/', Config::_()->get('sockets-jwt-domain') ?: 'minds.com');
+            setcookie('socket_jwt', $jwt, 0, '/', Config::_()->get('sockets-jwt-domain') ?: 'planetconcourse.world');
         }
     }
 

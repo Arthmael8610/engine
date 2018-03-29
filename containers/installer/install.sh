@@ -12,7 +12,7 @@ php /var/www/Minds/engine/cli.php install \
     --domain=localhost:8080 \
     --username=minds \
     --password=password \
-    --email=minds@minds.com \
+    --email=minds@planetconcourse.world \
     --private-key=/.dev/minds.pem \
     --public-key=/.dev/minds.pub \
     --cassandra-server=cassandra

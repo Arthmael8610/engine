@@ -29,14 +29,14 @@
   <body>
 
     <div class="m-lite--header">
-      <a href="https://www.minds.com/" style="text-decoration:none;" class="m-lite--logo">
-        <img src="https://www.minds.com/assets/logos/medium-production.png" alt="Minds"/>
+      <a href="https://www.planetconcourse.world/" style="text-decoration:none;" class="m-lite--logo">
+        <img src="https://www.planetconcourse.world/assets/logos/medium-production.png" alt="Minds"/>
       </a>
 
-      <a href="https://www.minds.com/login" style="text-decoration:none; padding-right:8px">
+      <a href="https://www.planetconcourse.world/login" style="text-decoration:none; padding-right:8px">
         <button class="mdl-button mdl-button--raised mdl-color--blue-grey-600 mdl-color-text--white">Signup</button>
       </a>
-      <a href="https://www.minds.com/login" style="text-decoration:none;">
+      <a href="https://www.planetconcourse.world/login" style="text-decoration:none;">
         <button class="mdl-button mdl-button--raised mdl-color--blue-grey-600 mdl-color-text--white">Login</button>
       </a>
     </div>

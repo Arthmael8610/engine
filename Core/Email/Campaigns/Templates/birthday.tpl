@@ -59,7 +59,7 @@
       <td style="text-align:center;">
         <a href="<?php echo Minds\Core\Config::_()->site_url; ?>blog/featured?__e_ct_guid=<?= $vars['guid']?>&campaign=birthday-2016"
           style="text-decoration:none; color:#333">
-          <img src="https://www.minds.com/assets/tutorial.png" width="450px" align="center">
+          <img src="https://www.planetconcourse.world/assets/tutorial.png" width="450px" align="center">
         </a>
       </td>
     </tr>

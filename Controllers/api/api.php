@@ -7,7 +7,7 @@
  *
  * @SWG\Swagger(
  *     schemes={"https"},
- *     host="www.minds.com",
+ *     host="www.planetconcourse.world",
  *     basePath="/api",
  *     @SWG\Info(
  *         version="1.0",
@@ -30,7 +30,7 @@
  * @SWG\SecurityScheme(
  *   securityDefinition="minds_oauth2",
  *   type="oauth2",
- *   authorizationUrl="https://www.minds.com/oauth2/authorize",
+ *   authorizationUrl="https://www.planetconcourse.world/oauth2/authorize",
  *   flow="implicit",
  *   scopes={
  *   }
