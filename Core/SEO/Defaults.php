@@ -199,7 +199,7 @@ class Defaults
             ],
             'monetization' => [
                 'title' => 'Monetization',
-                'description' => 'Start earning revenue on Minds by monetizing your channel',
+                'description' => 'Start earning revenue on Planet Concourse by monetizing  your channel',
                 'image' => 'assets/photos/sunset.jpg'
             ],
             'plus' => [

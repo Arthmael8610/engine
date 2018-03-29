@@ -182,7 +182,7 @@ class Manager
             ->setIcon('help_outline')
             ->setName('Support')
             ->setTitle('Help & Support Group')
-            ->setPath('groups/profile/100000000000000681/activity')
+            ->setPath('groups/profile/826099434348613637/activity')
             //'topbar'
         );
 
