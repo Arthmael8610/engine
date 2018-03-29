@@ -194,7 +194,7 @@ class Defaults
         $marketing = [
             'affiliates' => [
                 'title' => 'Affiliate Program',
-                'description' => 'Earn 25% of the revenue Minds generates from your referrals',
+                'description' => 'Earn 25% of the revenue Planet Concourse generates from your referrals',
                 'image' => 'assets/photos/balloon.jpg'
             ],
             'monetization' => [
@@ -203,7 +203,7 @@ class Defaults
                 'image' => 'assets/photos/sunset.jpg'
             ],
             'plus' => [
-                'title' => 'Minds Plus',
+                'title' => 'Flutterby Plus',
                 'description' => 'Opt-out of boosts, earn 1,000 monthly points, access exclusive Minds content, and more',
                 'image' => 'assets/photos/fractal.jpg'
             ],

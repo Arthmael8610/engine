@@ -33,7 +33,7 @@
         <td style="font-size: 16px;
             line-height: 22px;
             font-family: 'Lato', helvetica;">
-            The Minds Team
+            The Planet Concourse Team
         </td>
     </tr>
     <tr>

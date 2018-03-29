@@ -1,6 +1,6 @@
 <?php
 /**
- * Minds Plus API
+ * Flutterby Plus API
  *
  * @version 1
  * @author Mark Harding
